@@ -1,0 +1,49 @@
+.card {
+    border: 2px solid #20c997;
+    box-shadow: 0 4px 15px rgba(0, 206, 154, 0.5);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-title {
+    color: #20c997;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card-body {
+    text-align: center;
+}
+.card-body a {
+    text-decoration: none;
+}
+.card-body a:hover {
+    color:green;
+}
+
+.card.popular {
+    border: 2px solid #ffc107;
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.5);
+}
+.card.popular a:hover {
+    color:green;
+}
+.card.popular .card-title {
+    color: #ffc107; 
+}
+.footer-links {
+font-size: 1.2rem;
+line-height: 2;
+}
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    text-decoration: underline;
+}
